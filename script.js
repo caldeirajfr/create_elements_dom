@@ -31,7 +31,7 @@ article.innerHTML = `
 <div class="data">${arrayPostagens[i].data}</div>
 <p>${arrayPostagens[i].texto}</p>
 `
-article.id = `post-${i + 1}`;
+article.id = `post-${i + 1}`; // Adicionar id no article
 
 // Adicionar o elemento na página
 const main = document.querySelector("main")
